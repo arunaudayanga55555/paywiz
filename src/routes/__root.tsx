@@ -77,16 +77,27 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Paywiz Global — Stripe, PayPal, Wise & Payoneer Account Setup" },
+      {
+        name: "description",
+        content:
+          "Get fully verified Stripe, PayPal, Wise and Payoneer accounts from Sri Lanka. USA & UK business registration. Fast setup, human support, lifetime backing.",
+      },
+      { name: "author", content: "Paywiz Global" },
+      { property: "og:title", content: "Paywiz Global — Global Payment Accounts, Set Up Right" },
+      {
+        property: "og:description",
+        content:
+          "Verified Stripe, PayPal, Wise & Payoneer accounts plus USA/UK company registration. Chat on WhatsApp to get started.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800;900&display=swap",
+      },
       {
         rel: "stylesheet",
         href: appCss,
