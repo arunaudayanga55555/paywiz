@@ -168,10 +168,6 @@ function Hero() {
 
       <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 pb-20 pt-14 sm:px-6 sm:pt-20 lg:grid-cols-[1.15fr_1fr] lg:gap-14 lg:px-8 lg:pb-28 lg:pt-24">
         <div className="animate-fade-up">
-          <span className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-3 py-1.5 text-xs font-semibold uppercase tracking-wider backdrop-blur">
-            <Star className="h-3.5 w-3.5 fill-current" />
-            Sri Lanka's Trusted Fintech Setup Partner
-          </span>
           <h1 className="mt-5 text-4xl font-extrabold leading-[1.08] sm:text-5xl lg:text-6xl">
             Get Your Global Payment Account —{" "}
             <span className="bg-gradient-to-r from-white via-teal-soft to-white bg-clip-text text-transparent">
