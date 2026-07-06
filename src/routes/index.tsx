@@ -14,7 +14,7 @@ import {
   Wallet,
   ChevronDown,
   ArrowRight,
-  Star,
+  
   Mail,
   MapPin,
 } from "lucide-react";
