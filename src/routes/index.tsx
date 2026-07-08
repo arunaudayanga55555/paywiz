@@ -23,7 +23,7 @@ export const Route = createFileRoute("/")({
   component: LandingPage,
 });
 
-const WHATSAPP_NUMBER = "94770000000";
+const WHATSAPP_NUMBER = "94711899833";
 const waLink = (msg: string) =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
 const DEFAULT_MSG = "Hi Paywiz Global, I'm interested in your services";
@@ -772,18 +772,14 @@ function Footer() {
             <li className="flex items-center gap-2">
               <MessageCircle className="h-4 w-4 text-teal-soft" />
               <a href={waLink(DEFAULT_MSG)} className="hover:text-white">
-                WhatsApp: +94 77 000 0000
+                WhatsApp: +94 71 189 9833
               </a>
             </li>
             <li className="flex items-center gap-2">
               <Mail className="h-4 w-4 text-teal-soft" />
-              <a href="mailto:hello@paywizglobal.com" className="hover:text-white">
-                hello@paywizglobal.com
+              <a href="mailto:contact@paywiz.work" className="hover:text-white">
+                contact@paywiz.work
               </a>
-            </li>
-            <li className="flex items-center gap-2">
-              <MapPin className="h-4 w-4 text-teal-soft" />
-              Colombo, Sri Lanka
             </li>
           </ul>
         </div>
