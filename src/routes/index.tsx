@@ -16,7 +16,7 @@ import {
   ArrowRight,
   
   Mail,
-  MapPin,
+  
 } from "lucide-react";
 
 export const Route = createFileRoute("/")({
