@@ -84,14 +84,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Get fully verified Stripe, PayPal, Wise and Payoneer accounts from Sri Lanka. USA & UK business registration. Fast setup, human support, lifetime backing.",
       },
       { name: "author", content: "Paywiz Global" },
-      { property: "og:title", content: "Paywiz Global — Global Payment Accounts, Set Up Right" },
+      { property: "og:title", content: "Paywiz Global — Stripe, PayPal, Wise & Payoneer Account Setup" },
       {
         property: "og:description",
         content:
-          "Verified Stripe, PayPal, Wise & Payoneer accounts plus USA/UK company registration. Chat on WhatsApp to get started.",
+          "Get fully verified Stripe, PayPal, Wise and Payoneer accounts from Sri Lanka. USA & UK business registration. Fast setup, human support, lifetime backing.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Paywiz Global — Stripe, PayPal, Wise & Payoneer Account Setup" },
+      { name: "twitter:description", content: "Get fully verified Stripe, PayPal, Wise and Payoneer accounts from Sri Lanka. USA & UK business registration. Fast setup, human support, lifetime backing." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c974d53f-fb3d-4b37-ab6b-03a645ba0000/id-preview-5408d0db--76e0f73c-7813-47d6-86bc-dbbfe6ced367.lovable.app-1783358444614.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c974d53f-fb3d-4b37-ab6b-03a645ba0000/id-preview-5408d0db--76e0f73c-7813-47d6-86bc-dbbfe6ced367.lovable.app-1783358444614.png" },
     ],
     links: [
       {
